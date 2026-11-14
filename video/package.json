@@ -1,0 +1,24 @@
+{
+  "name": "ftx-documentary-video",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Remotion project for the FTX documentary video",
+  "scripts": {
+    "dev": "remotion studio",
+    "render": "remotion render src/index.ts TitleCard out/title-card.mp4",
+    "still": "remotion still src/index.ts TitleCard out/title-card.png --frame=60",
+    "upgrade": "remotion upgrade",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.543",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.543",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/react": "19.3.0",
+    "typescript": "7.0.2"
+  }
+}
