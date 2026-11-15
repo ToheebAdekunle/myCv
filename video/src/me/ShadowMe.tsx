@@ -4,6 +4,7 @@ import {
   Easing,
   Img,
   interpolate,
+  OffthreadVideo,
   random,
   Sequence,
   spring,
@@ -11,6 +12,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
+import { CLIPS } from "./clips";
 import data from "./shadow.json";
 import { Fx, IMAGES, PLAN, Win } from "./shots";
 
@@ -249,12 +251,42 @@ const News: React.FC = () => {
 };
 
 // ---------- One shot ----------
+const ClipView: React.FC<{ shot: Shot; clip: { src: string; seconds: number } }> = ({ shot, clip }) => {
+  const f = useCurrentFrame();
+  const { fps } = useVideoConfig();
+  const shotSec = shot.frames / fps;
+  const rate = clip.seconds < shotSec ? clip.seconds / shotSec : 1;
+  const fired = has(shot, "fired");
+  return (
+    <AbsoluteFill>
+      <OffthreadVideo
+        src={staticFile(clip.src)}
+        muted
+        playbackRate={rate}
+        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+      />
+      {fired && (
+        <AbsoluteFill
+          style={{
+            background: "radial-gradient(circle at 60% 40%, transparent 35%, rgba(80,0,140,0.6) 100%)",
+            opacity: interpolate(f, [0, 10], [0, 1], clamp),
+          }}
+        />
+      )}
+      {has(shot, "news") && <News />}
+      {has(shot, "siren") && <Siren />}
+    </AbsoluteFill>
+  );
+};
+
 const ShotView: React.FC<{ shot: Shot }> = ({ shot }) => {
   const f = useCurrentFrame();
+  const clip = CLIPS[shot.shot];
   const plan = PLAN[shot.shot];
   const img = IMAGES[plan.img];
   const t = interpolate(f, [0, shot.frames], [0, 1], { ...clamp, easing: Easing.inOut(Easing.quad) });
   const p = placement(img, lerpWin(plan.from, plan.to, t));
+  if (clip) return <ClipView shot={shot} clip={clip} />;
 
   const shakeAmt = has(shot, "shake") ? interpolate(f, [0, 14], [18, 0], clamp) : 0;
   const sx = Math.sin(f * 3.1) * shakeAmt;
@@ -363,7 +395,11 @@ const Captions: React.FC = () => {
   return null;
 };
 
-const Title: React.FC = () => (
+const Title: React.FC = () => {
+  const f = useCurrentFrame();
+  const current = data.shots.find((s) => f >= s.from && f < s.from + s.frames);
+  if (current && CLIPS[current.shot]) return null;
+  return (
   <AbsoluteFill style={{ alignItems: "center" }}>
     <div
       style={{
@@ -380,7 +416,8 @@ const Title: React.FC = () => (
       MY SHADOW IS <span style={{ color: "#ffd21f" }}>LAZY</span> 😴
     </div>
   </AbsoluteFill>
-);
+  );
+};
 
 // ---------- Sound effects per shot ----------
 const sfxFor = (shot: Shot): { src: string; at: number; volume: number }[] => {

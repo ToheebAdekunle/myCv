@@ -76,3 +76,6 @@ Shots without media show a placeholder card, so the episode can be previewed at 
 - Pictures: `public/me/` (originals) and `public/me/hd/` (upscaled for the vertical frame).
 - Which picture, crop, camera move and effect each line gets: `src/me/shots.ts`.
 - Sound effects (synthesised): `public/me/sfx/`.
+- AI-animated clips: save as `public/me/clips/NN.mp4` and list them in `src/me/clips.ts`
+  (`{ src, seconds }`). A shot with a clip plays it full-screen; others fall back to the picture edit.
+  Prompts for every clip are in the "My Shadow Is Lazy — AI Animation Prompts" doc.
