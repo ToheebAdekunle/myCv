@@ -18,6 +18,7 @@ npm install
 | `npm run render` | Renders `TitleCard` to `out/title-card.mp4` |
 | `npm run render:sinking` | Renders the sinking-car Short to `out/sinking-car.mp4` |
 | `npm run render:shadow` | Renders Vyrinx Short #1 "My Shadow Is Lazy" to `out/shadow-lazy.mp4` |
+| `npm run render:shadow-me` | Renders "My Shadow Is Lazy" starring Toheeb to `out/shadow-me.mp4` |
 | `npm run typecheck` | Type-checks the project |
 
 ## Layout
@@ -67,3 +68,11 @@ The edit is timed to the narration in `src/vyrinx/shadow-lazy.json` (made by
 3. `npm run dev` to preview, `npm run render:shadow` to export.
 
 Shots without media show a placeholder card, so the episode can be previewed at any stage.
+
+## My Shadow Is Lazy (starring Toheeb)
+
+- Script is used word for word; narration from `scripts/make_voice_shadow.py` (Kokoro test voice,
+  to be replaced with ElevenLabs once approved). Timings and captions: `src/me/shadow.json`.
+- Pictures: `public/me/` (originals) and `public/me/hd/` (upscaled for the vertical frame).
+- Which picture, crop, camera move and effect each line gets: `src/me/shots.ts`.
+- Sound effects (synthesised): `public/me/sfx/`.

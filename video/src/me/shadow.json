@@ -1,0 +1,964 @@
+{
+  "fps": 30,
+  "frames": 2876,
+  "shots": [
+    {
+      "shot": 1,
+      "from": 0,
+      "frames": 98,
+      "speaker": "tiko",
+      "audio": "me/voice/01.wav",
+      "audioFrom": 3,
+      "text": "In this world, your shadow has its own personality.",
+      "captions": [
+        {
+          "from": 3,
+          "text": "In this world,",
+          "hot": false,
+          "to": 29
+        },
+        {
+          "from": 29,
+          "text": "your shadow has",
+          "hot": false,
+          "to": 57
+        },
+        {
+          "from": 57,
+          "text": "its own personality.",
+          "hot": false,
+          "to": 98
+        }
+      ]
+    },
+    {
+      "shot": 2,
+      "from": 98,
+      "frames": 83,
+      "speaker": "tiko",
+      "audio": "me/voice/02.wav",
+      "audioFrom": 101,
+      "text": "If your shadow works hard, you become rich.",
+      "captions": [
+        {
+          "from": 101,
+          "text": "If your shadow",
+          "hot": false,
+          "to": 126
+        },
+        {
+          "from": 126,
+          "text": "works hard,",
+          "hot": false,
+          "to": 148
+        },
+        {
+          "from": 148,
+          "text": "you become rich.",
+          "hot": true,
+          "to": 181
+        }
+      ]
+    },
+    {
+      "shot": 3,
+      "from": 181,
+      "frames": 91,
+      "speaker": "tiko",
+      "audio": "me/voice/03.wav",
+      "audioFrom": 184,
+      "text": "If your shadow exercises, you become healthy.",
+      "captions": [
+        {
+          "from": 184,
+          "text": "If your",
+          "hot": false,
+          "to": 200
+        },
+        {
+          "from": 200,
+          "text": "shadow exercises,",
+          "hot": false,
+          "to": 232
+        },
+        {
+          "from": 232,
+          "text": "you become healthy.",
+          "hot": true,
+          "to": 272
+        }
+      ]
+    },
+    {
+      "shot": 4,
+      "from": 272,
+      "frames": 101,
+      "speaker": "tiko",
+      "audio": "me/voice/04.wav",
+      "audioFrom": 275,
+      "text": "And if your shadow gets a job, you receive its salary.",
+      "captions": [
+        {
+          "from": 275,
+          "text": "And if your",
+          "hot": false,
+          "to": 295
+        },
+        {
+          "from": 295,
+          "text": "shadow gets a",
+          "hot": false,
+          "to": 318
+        },
+        {
+          "from": 318,
+          "text": "job,",
+          "hot": false,
+          "to": 328
+        },
+        {
+          "from": 328,
+          "text": "you receive",
+          "hot": false,
+          "to": 348
+        },
+        {
+          "from": 348,
+          "text": "its salary.",
+          "hot": true,
+          "to": 373
+        }
+      ]
+    },
+    {
+      "shot": 5,
+      "from": 373,
+      "frames": 125,
+      "speaker": "tiko",
+      "audio": "me/voice/05.wav",
+      "audioFrom": 376,
+      "text": "That's why the richest people in town never do anything themselves.",
+      "captions": [
+        {
+          "from": 376,
+          "text": "That's why the",
+          "hot": false,
+          "to": 402
+        },
+        {
+          "from": 402,
+          "text": "richest people in",
+          "hot": true,
+          "to": 433
+        },
+        {
+          "from": 433,
+          "text": "town never do",
+          "hot": false,
+          "to": 458
+        },
+        {
+          "from": 458,
+          "text": "anything themselves.",
+          "hot": false,
+          "to": 498
+        }
+      ]
+    },
+    {
+      "shot": 6,
+      "from": 498,
+      "frames": 73,
+      "speaker": "tiko",
+      "audio": "me/voice/06.wav",
+      "audioFrom": 501,
+      "text": "Their shadows run entire businesses.",
+      "captions": [
+        {
+          "from": 501,
+          "text": "Their shadows run",
+          "hot": false,
+          "to": 533
+        },
+        {
+          "from": 533,
+          "text": "entire businesses.",
+          "hot": false,
+          "to": 571
+        }
+      ]
+    },
+    {
+      "shot": 7,
+      "from": 571,
+      "frames": 99,
+      "speaker": "tiko",
+      "audio": "me/voice/07.wav",
+      "audioFrom": 574,
+      "text": "My name is Toheeb, and I have a serious problem.",
+      "captions": [
+        {
+          "from": 574,
+          "text": "My name",
+          "hot": false,
+          "to": 590
+        },
+        {
+          "from": 590,
+          "text": "is Toheeb,",
+          "hot": true,
+          "to": 611
+        },
+        {
+          "from": 611,
+          "text": "and I have",
+          "hot": false,
+          "to": 631
+        },
+        {
+          "from": 631,
+          "text": "a serious problem.",
+          "hot": false,
+          "to": 670
+        }
+      ]
+    },
+    {
+      "shot": 8,
+      "from": 670,
+      "frames": 57,
+      "speaker": "tiko",
+      "audio": "me/voice/08.wav",
+      "audioFrom": 673,
+      "text": "My shadow is lazy.",
+      "captions": [
+        {
+          "from": 673,
+          "text": "My shadow",
+          "hot": false,
+          "to": 694
+        },
+        {
+          "from": 694,
+          "text": "is lazy.",
+          "hot": true,
+          "to": 727
+        }
+      ]
+    },
+    {
+      "shot": 9,
+      "from": 727,
+      "frames": 168,
+      "speaker": "tiko",
+      "audio": "me/voice/09.wav",
+      "audioFrom": 730,
+      "text": "Every morning, I wake up at 6 AM to exercise, but my shadow stays in bed.",
+      "captions": [
+        {
+          "from": 730,
+          "text": "Every morning,",
+          "hot": false,
+          "to": 762
+        },
+        {
+          "from": 762,
+          "text": "I wake up",
+          "hot": false,
+          "to": 784
+        },
+        {
+          "from": 784,
+          "text": "at 6 AM",
+          "hot": false,
+          "to": 803
+        },
+        {
+          "from": 803,
+          "text": "to exercise,",
+          "hot": false,
+          "to": 830
+        },
+        {
+          "from": 830,
+          "text": "but my shadow",
+          "hot": false,
+          "to": 860
+        },
+        {
+          "from": 860,
+          "text": "stays in bed.",
+          "hot": false,
+          "to": 895
+        }
+      ]
+    },
+    {
+      "shot": 10,
+      "from": 895,
+      "frames": 145,
+      "speaker": "tiko",
+      "audio": "me/voice/10.wav",
+      "audioFrom": 898,
+      "text": "I tried taking it to the gym, but it spent the entire session lying on the floor.",
+      "captions": [
+        {
+          "from": 898,
+          "text": "I tried taking",
+          "hot": false,
+          "to": 922
+        },
+        {
+          "from": 922,
+          "text": "it to the",
+          "hot": false,
+          "to": 939
+        },
+        {
+          "from": 939,
+          "text": "gym,",
+          "hot": false,
+          "to": 949
+        },
+        {
+          "from": 949,
+          "text": "but it spent",
+          "hot": false,
+          "to": 971
+        },
+        {
+          "from": 971,
+          "text": "the entire session",
+          "hot": false,
+          "to": 1001
+        },
+        {
+          "from": 1001,
+          "text": "lying on the",
+          "hot": false,
+          "to": 1022
+        },
+        {
+          "from": 1022,
+          "text": "floor.",
+          "hot": false,
+          "to": 1040
+        }
+      ]
+    },
+    {
+      "shot": 11,
+      "from": 1040,
+      "frames": 101,
+      "speaker": "tiko",
+      "audio": "me/voice/11.wav",
+      "audioFrom": 1043,
+      "text": "One day, my neighbor's shadow became a famous businessman.",
+      "captions": [
+        {
+          "from": 1043,
+          "text": "One day,",
+          "hot": false,
+          "to": 1058
+        },
+        {
+          "from": 1058,
+          "text": "my neighbor's shadow",
+          "hot": false,
+          "to": 1090
+        },
+        {
+          "from": 1090,
+          "text": "became a famous",
+          "hot": false,
+          "to": 1115
+        },
+        {
+          "from": 1115,
+          "text": "businessman.",
+          "hot": false,
+          "to": 1141
+        }
+      ]
+    },
+    {
+      "shot": 12,
+      "from": 1141,
+      "frames": 83,
+      "speaker": "tiko",
+      "audio": "me/voice/12.wav",
+      "audioFrom": 1144,
+      "text": "Within three weeks, his family bought a mansion.",
+      "captions": [
+        {
+          "from": 1144,
+          "text": "Within three weeks,",
+          "hot": false,
+          "to": 1174
+        },
+        {
+          "from": 1174,
+          "text": "his family bought",
+          "hot": false,
+          "to": 1201
+        },
+        {
+          "from": 1201,
+          "text": "a mansion.",
+          "hot": true,
+          "to": 1224
+        }
+      ]
+    },
+    {
+      "shot": 13,
+      "from": 1224,
+      "frames": 45,
+      "speaker": "tiko",
+      "audio": "me/voice/13.wav",
+      "audioFrom": 1227,
+      "text": "I was jealous.",
+      "captions": [
+        {
+          "from": 1227,
+          "text": "I was jealous.",
+          "hot": true,
+          "to": 1269
+        }
+      ]
+    },
+    {
+      "shot": 14,
+      "from": 1269,
+      "frames": 65,
+      "speaker": "tiko",
+      "audio": "me/voice/14.wav",
+      "audioFrom": 1272,
+      "text": "So I decided to train my shadow.",
+      "captions": [
+        {
+          "from": 1272,
+          "text": "So I decided",
+          "hot": false,
+          "to": 1294
+        },
+        {
+          "from": 1294,
+          "text": "to train my",
+          "hot": false,
+          "to": 1314
+        },
+        {
+          "from": 1314,
+          "text": "shadow.",
+          "hot": false,
+          "to": 1334
+        }
+      ]
+    },
+    {
+      "shot": 15,
+      "from": 1334,
+      "frames": 64,
+      "speaker": "tiko",
+      "audio": "me/voice/15.wav",
+      "audioFrom": 1337,
+      "text": "I bought it expensive gym equipment.",
+      "captions": [
+        {
+          "from": 1337,
+          "text": "I bought it",
+          "hot": false,
+          "to": 1356
+        },
+        {
+          "from": 1356,
+          "text": "expensive gym equipment.",
+          "hot": false,
+          "to": 1398
+        }
+      ]
+    },
+    {
+      "shot": 16,
+      "from": 1398,
+      "frames": 59,
+      "speaker": "tiko",
+      "audio": "me/voice/16.wav",
+      "audioFrom": 1401,
+      "text": "I enrolled it in business school.",
+      "captions": [
+        {
+          "from": 1401,
+          "text": "I enrolled it",
+          "hot": false,
+          "to": 1422
+        },
+        {
+          "from": 1422,
+          "text": "in business school.",
+          "hot": false,
+          "to": 1457
+        }
+      ]
+    },
+    {
+      "shot": 17,
+      "from": 1457,
+      "frames": 62,
+      "speaker": "tiko",
+      "audio": "me/voice/17.wav",
+      "audioFrom": 1460,
+      "text": "I even hired a personal coach.",
+      "captions": [
+        {
+          "from": 1460,
+          "text": "I even hired",
+          "hot": false,
+          "to": 1483
+        },
+        {
+          "from": 1483,
+          "text": "a personal coach.",
+          "hot": false,
+          "to": 1519
+        }
+      ]
+    },
+    {
+      "shot": 18,
+      "from": 1519,
+      "frames": 50,
+      "speaker": "tiko",
+      "audio": "me/voice/18.wav",
+      "audioFrom": 1522,
+      "text": "Nothing worked.",
+      "captions": [
+        {
+          "from": 1522,
+          "text": "Nothing worked.",
+          "hot": false,
+          "to": 1569
+        }
+      ]
+    },
+    {
+      "shot": 19,
+      "from": 1569,
+      "frames": 122,
+      "speaker": "tiko",
+      "audio": "me/voice/19.wav",
+      "audioFrom": 1572,
+      "text": "Then one morning, I woke up and discovered my shadow was missing.",
+      "captions": [
+        {
+          "from": 1572,
+          "text": "Then one morning,",
+          "hot": false,
+          "to": 1603
+        },
+        {
+          "from": 1603,
+          "text": "I woke up",
+          "hot": false,
+          "to": 1621
+        },
+        {
+          "from": 1621,
+          "text": "and discovered my",
+          "hot": false,
+          "to": 1652
+        },
+        {
+          "from": 1652,
+          "text": "shadow was missing.",
+          "hot": true,
+          "to": 1691
+        }
+      ]
+    },
+    {
+      "shot": 20,
+      "from": 1691,
+      "frames": 160,
+      "speaker": "tiko",
+      "audio": "me/voice/20.wav",
+      "audioFrom": 1694,
+      "text": "I searched everywhere. Under my bed, inside the wardrobe, even behind the curtains.",
+      "captions": [
+        {
+          "from": 1694,
+          "text": "I searched everywhere.",
+          "hot": false,
+          "to": 1734
+        },
+        {
+          "from": 1734,
+          "text": "Under my bed,",
+          "hot": false,
+          "to": 1760
+        },
+        {
+          "from": 1760,
+          "text": "inside the wardrobe,",
+          "hot": false,
+          "to": 1797
+        },
+        {
+          "from": 1797,
+          "text": "even behind",
+          "hot": false,
+          "to": 1820
+        },
+        {
+          "from": 1820,
+          "text": "the curtains.",
+          "hot": false,
+          "to": 1851
+        }
+      ]
+    },
+    {
+      "shot": 21,
+      "from": 1851,
+      "frames": 50,
+      "speaker": "tiko",
+      "audio": "me/voice/21.wav",
+      "audioFrom": 1854,
+      "text": "Then my phone rang.",
+      "captions": [
+        {
+          "from": 1854,
+          "text": "Then my",
+          "hot": false,
+          "to": 1869
+        },
+        {
+          "from": 1869,
+          "text": "phone rang.",
+          "hot": false,
+          "to": 1901
+        }
+      ]
+    },
+    {
+      "shot": 22,
+      "from": 1901,
+      "frames": 43,
+      "speaker": "tiko",
+      "audio": "me/voice/22.wav",
+      "audioFrom": 1904,
+      "text": "It was the police.",
+      "captions": [
+        {
+          "from": 1904,
+          "text": "It was",
+          "hot": false,
+          "to": 1917
+        },
+        {
+          "from": 1917,
+          "text": "the police.",
+          "hot": true,
+          "to": 1944
+        }
+      ]
+    },
+    {
+      "shot": 23,
+      "from": 1944,
+      "frames": 188,
+      "speaker": "tiko",
+      "audio": "me/voice/23.wav",
+      "audioFrom": 1947,
+      "text": "They told me my shadow had been arrested for stealing 50 million dollars from the national shadow bank.",
+      "captions": [
+        {
+          "from": 1947,
+          "text": "They told me",
+          "hot": false,
+          "to": 1970
+        },
+        {
+          "from": 1970,
+          "text": "my shadow had",
+          "hot": false,
+          "to": 1995
+        },
+        {
+          "from": 1995,
+          "text": "been arrested for",
+          "hot": false,
+          "to": 2026
+        },
+        {
+          "from": 2026,
+          "text": "stealing 50 million",
+          "hot": true,
+          "to": 2060
+        },
+        {
+          "from": 2060,
+          "text": "dollars from the",
+          "hot": false,
+          "to": 2090
+        },
+        {
+          "from": 2090,
+          "text": "national shadow bank.",
+          "hot": false,
+          "to": 2132
+        }
+      ]
+    },
+    {
+      "shot": 24,
+      "from": 2132,
+      "frames": 46,
+      "speaker": "tiko",
+      "audio": "me/voice/24.wav",
+      "audioFrom": 2135,
+      "text": "I rushed to the station.",
+      "captions": [
+        {
+          "from": 2135,
+          "text": "I rushed to",
+          "hot": false,
+          "to": 2153
+        },
+        {
+          "from": 2153,
+          "text": "the station.",
+          "hot": false,
+          "to": 2178
+        }
+      ]
+    },
+    {
+      "shot": 25,
+      "from": 2178,
+      "frames": 80,
+      "speaker": "tiko",
+      "audio": "me/voice/25.wav",
+      "audioFrom": 2181,
+      "text": "But when I arrived, the police were terrified.",
+      "captions": [
+        {
+          "from": 2181,
+          "text": "But when",
+          "hot": false,
+          "to": 2195
+        },
+        {
+          "from": 2195,
+          "text": "I arrived,",
+          "hot": false,
+          "to": 2212
+        },
+        {
+          "from": 2212,
+          "text": "the police",
+          "hot": false,
+          "to": 2229
+        },
+        {
+          "from": 2229,
+          "text": "were terrified.",
+          "hot": true,
+          "to": 2258
+        }
+      ]
+    },
+    {
+      "shot": 26,
+      "from": 2258,
+      "frames": 83,
+      "speaker": "tiko",
+      "audio": "me/voice/26.wav",
+      "audioFrom": 2261,
+      "text": "Apparently, my shadow hadn't stolen anything.",
+      "captions": [
+        {
+          "from": 2261,
+          "text": "Apparently,",
+          "hot": false,
+          "to": 2281
+        },
+        {
+          "from": 2281,
+          "text": "my shadow hadn't",
+          "hot": false,
+          "to": 2309
+        },
+        {
+          "from": 2309,
+          "text": "stolen anything.",
+          "hot": false,
+          "to": 2341
+        }
+      ]
+    },
+    {
+      "shot": 27,
+      "from": 2341,
+      "frames": 119,
+      "speaker": "tiko",
+      "audio": "me/voice/27.wav",
+      "audioFrom": 2344,
+      "text": "It had secretly become the richest shadow in the entire country.",
+      "captions": [
+        {
+          "from": 2344,
+          "text": "It had secretly",
+          "hot": false,
+          "to": 2371
+        },
+        {
+          "from": 2371,
+          "text": "become the richest",
+          "hot": true,
+          "to": 2403
+        },
+        {
+          "from": 2403,
+          "text": "shadow in the",
+          "hot": false,
+          "to": 2428
+        },
+        {
+          "from": 2428,
+          "text": "entire country.",
+          "hot": false,
+          "to": 2460
+        }
+      ]
+    },
+    {
+      "shot": 28,
+      "from": 2460,
+      "frames": 73,
+      "speaker": "tiko",
+      "audio": "me/voice/28.wav",
+      "audioFrom": 2463,
+      "text": "And it had been hiding all its money from me.",
+      "captions": [
+        {
+          "from": 2463,
+          "text": "And it had",
+          "hot": false,
+          "to": 2479
+        },
+        {
+          "from": 2479,
+          "text": "been hiding all",
+          "hot": false,
+          "to": 2500
+        },
+        {
+          "from": 2500,
+          "text": "its money from",
+          "hot": false,
+          "to": 2521
+        },
+        {
+          "from": 2521,
+          "text": "me.",
+          "hot": false,
+          "to": 2533
+        }
+      ]
+    },
+    {
+      "shot": 29,
+      "from": 2533,
+      "frames": 43,
+      "speaker": "tiko",
+      "audio": "me/voice/29.wav",
+      "audioFrom": 2536,
+      "text": "I looked down.",
+      "captions": [
+        {
+          "from": 2536,
+          "text": "I looked down.",
+          "hot": false,
+          "to": 2576
+        }
+      ]
+    },
+    {
+      "shot": 30,
+      "from": 2576,
+      "frames": 160,
+      "speaker": "tiko",
+      "audio": "me/voice/30.wav",
+      "audioFrom": 2579,
+      "text": "My shadow was standing behind me, wearing sunglasses and holding a tiny briefcase.",
+      "captions": [
+        {
+          "from": 2579,
+          "text": "My shadow was",
+          "hot": false,
+          "to": 2605
+        },
+        {
+          "from": 2605,
+          "text": "standing behind me,",
+          "hot": false,
+          "to": 2641
+        },
+        {
+          "from": 2641,
+          "text": "wearing sunglasses and",
+          "hot": false,
+          "to": 2682
+        },
+        {
+          "from": 2682,
+          "text": "holding a tiny",
+          "hot": false,
+          "to": 2710
+        },
+        {
+          "from": 2710,
+          "text": "briefcase.",
+          "hot": false,
+          "to": 2736
+        }
+      ]
+    },
+    {
+      "shot": 31,
+      "from": 2736,
+      "frames": 43,
+      "speaker": "tiko",
+      "audio": "me/voice/31.wav",
+      "audioFrom": 2739,
+      "text": "Then it whispered:",
+      "captions": [
+        {
+          "from": 2739,
+          "text": "Then it whispered:",
+          "hot": false,
+          "to": 2779
+        }
+      ]
+    },
+    {
+      "shot": 32,
+      "from": 2779,
+      "frames": 97,
+      "speaker": "shadow",
+      "audio": "me/voice/32.wav",
+      "audioFrom": 2782,
+      "text": "You're fired.",
+      "captions": [
+        {
+          "from": 2782,
+          "text": "You're fired.",
+          "hot": true,
+          "to": 2876
+        }
+      ]
+    }
+  ]
+}
