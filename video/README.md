@@ -17,6 +17,7 @@ npm install
 | `npm run still` | Renders frame 60 of `TitleCard` to `out/title-card.png` |
 | `npm run render` | Renders `TitleCard` to `out/title-card.mp4` |
 | `npm run render:sinking` | Renders the sinking-car Short to `out/sinking-car.mp4` |
+| `npm run render:shadow` | Renders Vyrinx Short #1 "My Shadow Is Lazy" to `out/shadow-lazy.mp4` |
 | `npm run typecheck` | Type-checks the project |
 
 ## Layout
@@ -54,3 +55,15 @@ python -m venv .venv && .venv/bin/pip install kokoro-onnx soundfile
 
 To use your own recording instead, replace the WAV files in `public/voice/sinking/` (one per scene).
 Sound effects in `public/sfx/` were synthesised with ffmpeg.
+
+## Vyrinx Short #1: My Shadow Is Lazy
+
+The edit is timed to the narration in `src/vyrinx/shadow-lazy.json` (made by
+`scripts/make_voice_vyrinx.py`, Tiko = Kokoro `am_puck`, shadow = `am_onyx` with a whisper effect).
+
+1. Generate each shot from the prompts in the production doc and save it as
+   `public/vyrinx/shadow-lazy/shots/NN.mp4` (or `.png`; stills get a slow push-in).
+2. List it in `src/vyrinx/media.ts`, e.g. `5: "vyrinx/shadow-lazy/shots/05.mp4",`.
+3. `npm run dev` to preview, `npm run render:shadow` to export.
+
+Shots without media show a placeholder card, so the episode can be previewed at any stage.

@@ -1,11 +1,20 @@
 import { Composition } from "remotion";
 import { TitleCard, titleCardSchema } from "./TitleCard";
 import { SinkingCar } from "./sinking/SinkingCar";
+import { SHADOW_LAZY_FRAMES, ShadowLazy } from "./vyrinx/ShadowLazy";
 import { DURATION, FPS, HEIGHT, WIDTH } from "./sinking/timeline";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="ShadowLazy"
+        component={ShadowLazy}
+        durationInFrames={SHADOW_LAZY_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
       <Composition
         id="SinkingCar"
         component={SinkingCar}

@@ -9,7 +9,8 @@
     "still": "remotion still src/index.ts TitleCard out/title-card.png --frame=60",
     "upgrade": "remotion upgrade",
     "typecheck": "tsc --noEmit",
-    "render:sinking": "remotion render src/index.ts SinkingCar out/sinking-car.mp4"
+    "render:sinking": "remotion render src/index.ts SinkingCar out/sinking-car.mp4",
+    "render:shadow": "remotion render src/index.ts ShadowLazy out/shadow-lazy.mp4"
   },
   "dependencies": {
     "@react-three/fiber": "9.8.2",

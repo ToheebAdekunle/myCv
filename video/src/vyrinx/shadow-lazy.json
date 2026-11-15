@@ -1,0 +1,665 @@
+{
+  "fps": 30,
+  "frames": 1732,
+  "shots": [
+    {
+      "shot": 1,
+      "from": 0,
+      "frames": 75,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/01.wav",
+      "audioFrom": 3,
+      "text": "In my world, your shadow has a life of its own.",
+      "captions": [
+        {
+          "from": 3,
+          "text": "In my world,",
+          "hot": false,
+          "to": 21
+        },
+        {
+          "from": 21,
+          "text": "your shadow has",
+          "hot": true,
+          "to": 42
+        },
+        {
+          "from": 42,
+          "text": "a life of",
+          "hot": false,
+          "to": 56
+        },
+        {
+          "from": 56,
+          "text": "its own.",
+          "hot": false,
+          "to": 75
+        }
+      ]
+    },
+    {
+      "shot": 2,
+      "from": 75,
+      "frames": 48,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/02.wav",
+      "audioFrom": 78,
+      "text": "If it works hard, you get rich.",
+      "captions": [
+        {
+          "from": 78,
+          "text": "If it",
+          "hot": false,
+          "to": 87
+        },
+        {
+          "from": 87,
+          "text": "works hard,",
+          "hot": false,
+          "to": 103
+        },
+        {
+          "from": 103,
+          "text": "you get rich.",
+          "hot": true,
+          "to": 123
+        }
+      ]
+    },
+    {
+      "shot": 3,
+      "from": 123,
+      "frames": 122,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/03.wav",
+      "audioFrom": 126,
+      "text": "If it exercises, you get healthy. If it gets a job, you get the salary.",
+      "captions": [
+        {
+          "from": 126,
+          "text": "If it exercises,",
+          "hot": false,
+          "to": 152
+        },
+        {
+          "from": 152,
+          "text": "you get healthy.",
+          "hot": false,
+          "to": 178
+        },
+        {
+          "from": 178,
+          "text": "If it gets",
+          "hot": false,
+          "to": 196
+        },
+        {
+          "from": 196,
+          "text": "a job,",
+          "hot": false,
+          "to": 208
+        },
+        {
+          "from": 208,
+          "text": "you get",
+          "hot": false,
+          "to": 222
+        },
+        {
+          "from": 222,
+          "text": "the salary.",
+          "hot": false,
+          "to": 245
+        }
+      ]
+    },
+    {
+      "shot": 4,
+      "from": 245,
+      "frames": 94,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/04.wav",
+      "audioFrom": 248,
+      "text": "That's why the richest people in town never lift a finger.",
+      "captions": [
+        {
+          "from": 248,
+          "text": "That's why the",
+          "hot": false,
+          "to": 269
+        },
+        {
+          "from": 269,
+          "text": "richest people in",
+          "hot": true,
+          "to": 294
+        },
+        {
+          "from": 294,
+          "text": "town never lift",
+          "hot": false,
+          "to": 316
+        },
+        {
+          "from": 316,
+          "text": "a finger.",
+          "hot": false,
+          "to": 339
+        }
+      ]
+    },
+    {
+      "shot": 5,
+      "from": 339,
+      "frames": 89,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/05.wav",
+      "audioFrom": 342,
+      "text": "My name is Tiko. And my shadow... is lazy.",
+      "captions": [
+        {
+          "from": 342,
+          "text": "My name",
+          "hot": false,
+          "to": 357
+        },
+        {
+          "from": 357,
+          "text": "is Tiko.",
+          "hot": false,
+          "to": 374
+        },
+        {
+          "from": 374,
+          "text": "And my shadow\u2026",
+          "hot": false,
+          "to": 399
+        },
+        {
+          "from": 399,
+          "text": "is lazy.",
+          "hot": true,
+          "to": 428
+        }
+      ]
+    },
+    {
+      "shot": 6,
+      "from": 428,
+      "frames": 88,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/06.wav",
+      "audioFrom": 431,
+      "text": "I wake up at six to exercise. It stays in bed.",
+      "captions": [
+        {
+          "from": 431,
+          "text": "I wake up",
+          "hot": false,
+          "to": 448
+        },
+        {
+          "from": 448,
+          "text": "at six to",
+          "hot": false,
+          "to": 464
+        },
+        {
+          "from": 464,
+          "text": "exercise.",
+          "hot": false,
+          "to": 481
+        },
+        {
+          "from": 481,
+          "text": "It stays",
+          "hot": false,
+          "to": 496
+        },
+        {
+          "from": 496,
+          "text": "in bed.",
+          "hot": false,
+          "to": 516
+        }
+      ]
+    },
+    {
+      "shot": 7,
+      "from": 516,
+      "frames": 93,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/07.wav",
+      "audioFrom": 519,
+      "text": "I took it to the gym. It lay on the floor the whole time.",
+      "captions": [
+        {
+          "from": 519,
+          "text": "I took it",
+          "hot": false,
+          "to": 533
+        },
+        {
+          "from": 533,
+          "text": "to the gym.",
+          "hot": false,
+          "to": 550
+        },
+        {
+          "from": 550,
+          "text": "It lay on",
+          "hot": false,
+          "to": 564
+        },
+        {
+          "from": 564,
+          "text": "the floor the",
+          "hot": false,
+          "to": 583
+        },
+        {
+          "from": 583,
+          "text": "whole time.",
+          "hot": false,
+          "to": 609
+        }
+      ]
+    },
+    {
+      "shot": 8,
+      "from": 609,
+      "frames": 78,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/08.wav",
+      "audioFrom": 612,
+      "text": "Then my neighbor's shadow became a famous businessman.",
+      "captions": [
+        {
+          "from": 612,
+          "text": "Then my neighbor's",
+          "hot": false,
+          "to": 637
+        },
+        {
+          "from": 637,
+          "text": "shadow became a",
+          "hot": true,
+          "to": 659
+        },
+        {
+          "from": 659,
+          "text": "famous businessman.",
+          "hot": false,
+          "to": 687
+        }
+      ]
+    },
+    {
+      "shot": 9,
+      "from": 687,
+      "frames": 61,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/09.wav",
+      "audioFrom": 690,
+      "text": "Three weeks later, they bought a mansion.",
+      "captions": [
+        {
+          "from": 690,
+          "text": "Three weeks later,",
+          "hot": false,
+          "to": 711
+        },
+        {
+          "from": 711,
+          "text": "they bought",
+          "hot": false,
+          "to": 725
+        },
+        {
+          "from": 725,
+          "text": "a mansion.",
+          "hot": true,
+          "to": 748
+        }
+      ]
+    },
+    {
+      "shot": 10,
+      "from": 748,
+      "frames": 130,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/10.wav",
+      "audioFrom": 751,
+      "text": "So I trained mine. Expensive equipment. Business school. A personal coach.",
+      "captions": [
+        {
+          "from": 751,
+          "text": "So I",
+          "hot": false,
+          "to": 761
+        },
+        {
+          "from": 761,
+          "text": "trained mine.",
+          "hot": false,
+          "to": 784
+        },
+        {
+          "from": 784,
+          "text": "Expensive equipment.",
+          "hot": false,
+          "to": 816
+        },
+        {
+          "from": 816,
+          "text": "Business school.",
+          "hot": false,
+          "to": 844
+        },
+        {
+          "from": 844,
+          "text": "A personal coach.",
+          "hot": false,
+          "to": 878
+        }
+      ]
+    },
+    {
+      "shot": 11,
+      "from": 878,
+      "frames": 45,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/11.wav",
+      "audioFrom": 881,
+      "text": "Nothing worked.",
+      "captions": [
+        {
+          "from": 881,
+          "text": "Nothing worked.",
+          "hot": false,
+          "to": 923
+        }
+      ]
+    },
+    {
+      "shot": 12,
+      "from": 923,
+      "frames": 65,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/12.wav",
+      "audioFrom": 926,
+      "text": "Then one morning... my shadow was gone.",
+      "captions": [
+        {
+          "from": 926,
+          "text": "Then one morning\u2026",
+          "hot": false,
+          "to": 950
+        },
+        {
+          "from": 950,
+          "text": "my shadow",
+          "hot": true,
+          "to": 964
+        },
+        {
+          "from": 964,
+          "text": "was gone.",
+          "hot": true,
+          "to": 988
+        }
+      ]
+    },
+    {
+      "shot": 13,
+      "from": 988,
+      "frames": 97,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/13.wav",
+      "audioFrom": 991,
+      "text": "Under the bed. In the wardrobe. Behind the curtains. Nothing.",
+      "captions": [
+        {
+          "from": 991,
+          "text": "Under the bed.",
+          "hot": false,
+          "to": 1012
+        },
+        {
+          "from": 1012,
+          "text": "In the wardrobe.",
+          "hot": false,
+          "to": 1035
+        },
+        {
+          "from": 1035,
+          "text": "Behind the curtains.",
+          "hot": false,
+          "to": 1063
+        },
+        {
+          "from": 1063,
+          "text": "Nothing.",
+          "hot": false,
+          "to": 1085
+        }
+      ]
+    },
+    {
+      "shot": 14,
+      "from": 1085,
+      "frames": 41,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/14.wav",
+      "audioFrom": 1088,
+      "text": "Then the police called.",
+      "captions": [
+        {
+          "from": 1088,
+          "text": "Then the",
+          "hot": false,
+          "to": 1100
+        },
+        {
+          "from": 1100,
+          "text": "police called.",
+          "hot": true,
+          "to": 1126
+        }
+      ]
+    },
+    {
+      "shot": 15,
+      "from": 1126,
+      "frames": 158,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/15.wav",
+      "audioFrom": 1129,
+      "text": "My shadow had been arrested for stealing fifty million dollars from the National Shadow Bank.",
+      "captions": [
+        {
+          "from": 1129,
+          "text": "My shadow had",
+          "hot": true,
+          "to": 1151
+        },
+        {
+          "from": 1151,
+          "text": "been arrested for",
+          "hot": false,
+          "to": 1179
+        },
+        {
+          "from": 1179,
+          "text": "stealing fifty million",
+          "hot": true,
+          "to": 1214
+        },
+        {
+          "from": 1214,
+          "text": "dollars from the",
+          "hot": false,
+          "to": 1241
+        },
+        {
+          "from": 1241,
+          "text": "National Shadow Bank.",
+          "hot": true,
+          "to": 1284
+        }
+      ]
+    },
+    {
+      "shot": 16,
+      "from": 1284,
+      "frames": 77,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/16.wav",
+      "audioFrom": 1287,
+      "text": "But at the station, the police looked terrified.",
+      "captions": [
+        {
+          "from": 1287,
+          "text": "But at",
+          "hot": false,
+          "to": 1297
+        },
+        {
+          "from": 1297,
+          "text": "the station,",
+          "hot": false,
+          "to": 1315
+        },
+        {
+          "from": 1315,
+          "text": "the police",
+          "hot": true,
+          "to": 1330
+        },
+        {
+          "from": 1330,
+          "text": "looked terrified.",
+          "hot": false,
+          "to": 1361
+        }
+      ]
+    },
+    {
+      "shot": 17,
+      "from": 1361,
+      "frames": 184,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/17.wav",
+      "audioFrom": 1364,
+      "text": "It hadn't stolen anything. It was the richest shadow in the country. And it had been hiding the money... from me.",
+      "captions": [
+        {
+          "from": 1364,
+          "text": "It hadn't",
+          "hot": false,
+          "to": 1379
+        },
+        {
+          "from": 1379,
+          "text": "stolen anything.",
+          "hot": false,
+          "to": 1404
+        },
+        {
+          "from": 1404,
+          "text": "It was the",
+          "hot": false,
+          "to": 1421
+        },
+        {
+          "from": 1421,
+          "text": "richest shadow in",
+          "hot": true,
+          "to": 1446
+        },
+        {
+          "from": 1446,
+          "text": "the country.",
+          "hot": false,
+          "to": 1465
+        },
+        {
+          "from": 1465,
+          "text": "And it had",
+          "hot": false,
+          "to": 1482
+        },
+        {
+          "from": 1482,
+          "text": "been hiding the",
+          "hot": false,
+          "to": 1505
+        },
+        {
+          "from": 1505,
+          "text": "money\u2026",
+          "hot": false,
+          "to": 1517
+        },
+        {
+          "from": 1517,
+          "text": "from me.",
+          "hot": false,
+          "to": 1545
+        }
+      ]
+    },
+    {
+      "shot": 18,
+      "from": 1545,
+      "frames": 95,
+      "speaker": "tiko",
+      "audio": "vyrinx/shadow-lazy/voice/18.wav",
+      "audioFrom": 1548,
+      "text": "I looked down. Sunglasses. Tiny briefcase. It whispered:",
+      "captions": [
+        {
+          "from": 1548,
+          "text": "I looked down.",
+          "hot": false,
+          "to": 1569
+        },
+        {
+          "from": 1569,
+          "text": "Sunglasses.",
+          "hot": false,
+          "to": 1587
+        },
+        {
+          "from": 1587,
+          "text": "Tiny briefcase.",
+          "hot": false,
+          "to": 1610
+        },
+        {
+          "from": 1610,
+          "text": "It whispered:",
+          "hot": false,
+          "to": 1640
+        }
+      ]
+    },
+    {
+      "shot": 19,
+      "from": 1640,
+      "frames": 92,
+      "speaker": "shadow",
+      "audio": "vyrinx/shadow-lazy/voice/19.wav",
+      "audioFrom": 1643,
+      "text": "You're fired.",
+      "captions": [
+        {
+          "from": 1643,
+          "text": "You're fired.",
+          "hot": true,
+          "to": 1732
+        }
+      ]
+    }
+  ]
+}
