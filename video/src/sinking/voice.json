@@ -1,0 +1,241 @@
+{
+  "voice": "am_michael",
+  "scenes": [
+    {
+      "file": "voice/sinking/00.wav",
+      "from": 4,
+      "frames": 60,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 0,
+          "text": "Your car just",
+          "hot": false,
+          "to": 29
+        },
+        {
+          "from": 29,
+          "text": "rolled into a lake.",
+          "hot": false,
+          "to": 90
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/01.wav",
+      "from": 94,
+      "frames": 48,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 90,
+          "text": "You have about",
+          "hot": false,
+          "to": 118
+        },
+        {
+          "from": 118,
+          "text": "sixty seconds.",
+          "hot": true,
+          "to": 150
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/02.wav",
+      "from": 154,
+      "frames": 111,
+      "speed": 1.243,
+      "captions": [
+        {
+          "from": 150,
+          "text": "Most people",
+          "hot": false,
+          "to": 173
+        },
+        {
+          "from": 173,
+          "text": "grab the door.",
+          "hot": false,
+          "to": 196
+        },
+        {
+          "from": 196,
+          "text": "It won't open.",
+          "hot": true,
+          "to": 219
+        },
+        {
+          "from": 219,
+          "text": "The water is",
+          "hot": false,
+          "to": 239
+        },
+        {
+          "from": 239,
+          "text": "pushing it shut.",
+          "hot": false,
+          "to": 270
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/03.wav",
+      "from": 274,
+      "frames": 64,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 270,
+          "text": "And the engine",
+          "hot": false,
+          "to": 296
+        },
+        {
+          "from": 296,
+          "text": "is dragging",
+          "hot": false,
+          "to": 315
+        },
+        {
+          "from": 315,
+          "text": "the nose down.",
+          "hot": false,
+          "to": 360
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/04.wav",
+      "from": 364,
+      "frames": 37,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 360,
+          "text": "So:",
+          "hot": false,
+          "to": 375
+        },
+        {
+          "from": 375,
+          "text": "seatbelt off.",
+          "hot": true,
+          "to": 420
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/05.wav",
+      "from": 424,
+      "frames": 80,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 420,
+          "text": "Open the window",
+          "hot": true,
+          "to": 452
+        },
+        {
+          "from": 452,
+          "text": "now, before",
+          "hot": false,
+          "to": 475
+        },
+        {
+          "from": 475,
+          "text": "the power dies.",
+          "hot": false,
+          "to": 510
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/06.wav",
+      "from": 514,
+      "frames": 77,
+      "speed": 1.098,
+      "captions": [
+        {
+          "from": 510,
+          "text": "Stuck?",
+          "hot": false,
+          "to": 527
+        },
+        {
+          "from": 527,
+          "text": "Smash the side glass,",
+          "hot": true,
+          "to": 560
+        },
+        {
+          "from": 560,
+          "text": "not the windshield.",
+          "hot": false,
+          "to": 600
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/07.wav",
+      "from": 604,
+      "frames": 32,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 600,
+          "text": "Kids out first.",
+          "hot": true,
+          "to": 655
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/08.wav",
+      "from": 659,
+      "frames": 22,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 655,
+          "text": "Then you.",
+          "hot": false,
+          "to": 720
+        }
+      ]
+    },
+    {
+      "file": "voice/sinking/09.wav",
+      "from": 724,
+      "frames": 88,
+      "speed": 1.05,
+      "captions": [
+        {
+          "from": 720,
+          "text": "Because after",
+          "hot": false,
+          "to": 747
+        },
+        {
+          "from": 747,
+          "text": "one minute,",
+          "hot": false,
+          "to": 767
+        },
+        {
+          "from": 767,
+          "text": "that window",
+          "hot": false,
+          "to": 788
+        },
+        {
+          "from": 788,
+          "text": "is underwater.",
+          "hot": true,
+          "to": 900
+        }
+      ]
+    }
+  ]
+}

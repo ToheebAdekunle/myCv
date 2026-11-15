@@ -1,37 +1,12 @@
+import voice from "./voice.json";
 import { AbsoluteFill, interpolate, spring, useCurrentFrame, useVideoConfig } from "remotion";
 
 const FONT = "Inter, 'Arial Black', Arial, sans-serif";
 
 type Cap = { from: number; to: number; text: string; hot?: boolean };
 
-export const CAPTIONS: Cap[] = [
-  { from: 0, to: 38, text: "Your car just" },
-  { from: 38, to: 90, text: "rolled into a lake." },
-  { from: 90, to: 114, text: "You have about" },
-  { from: 114, to: 150, text: "sixty seconds.", hot: true },
-  { from: 150, to: 172, text: "Most people" },
-  { from: 172, to: 200, text: "grab the door." },
-  { from: 200, to: 228, text: "It won't open.", hot: true },
-  { from: 228, to: 248, text: "The water is" },
-  { from: 248, to: 270, text: "pushing it shut." },
-  { from: 270, to: 300, text: "And the engine" },
-  { from: 300, to: 325, text: "is dragging" },
-  { from: 325, to: 360, text: "the nose down." },
-  { from: 360, to: 376, text: "So:" },
-  { from: 376, to: 420, text: "seatbelt off.", hot: true },
-  { from: 420, to: 450, text: "Open the window", hot: true },
-  { from: 450, to: 472, text: "now, before" },
-  { from: 472, to: 510, text: "the power dies." },
-  { from: 510, to: 530, text: "Stuck?" },
-  { from: 530, to: 566, text: "Smash the side glass,", hot: true },
-  { from: 566, to: 600, text: "not the windshield." },
-  { from: 600, to: 660, text: "Kids out first.", hot: true },
-  { from: 660, to: 720, text: "Then you." },
-  { from: 720, to: 760, text: "Because after" },
-  { from: 760, to: 800, text: "one minute," },
-  { from: 800, to: 840, text: "that window" },
-  { from: 840, to: 900, text: "is underwater.", hot: true },
-];
+// Caption timings come from the generated narration (scripts/make_voice.py).
+export const CAPTIONS: Cap[] = voice.scenes.flatMap((sc) => sc.captions);
 
 export const Captions: React.FC = () => {
   const f = useCurrentFrame();

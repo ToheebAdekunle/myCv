@@ -39,3 +39,18 @@ export REMOTION_BROWSER_EXECUTABLE=/path/to/chrome-headless-shell
 ```
 
 On machines without a GPU, add `--gl=swangle` to render the 3D Shorts.
+
+## Voiceover (sinking-car Short)
+
+The narration is generated offline with [Kokoro TTS](https://github.com/thewh1teagle/kokoro-onnx)
+(voice `am_michael`). The script fits each line to its scene and writes the caption timings to
+`src/sinking/voice.json`:
+
+```bash
+python -m venv .venv && .venv/bin/pip install kokoro-onnx soundfile
+# download kokoro-v1.0.onnx and voices-v1.0.bin from the kokoro-onnx "model-files-v1.0" release
+.venv/bin/python scripts/make_voice.py --model kokoro-v1.0.onnx --voices voices-v1.0.bin --voice am_michael
+```
+
+To use your own recording instead, replace the WAV files in `public/voice/sinking/` (one per scene).
+Sound effects in `public/sfx/` were synthesised with ffmpeg.
