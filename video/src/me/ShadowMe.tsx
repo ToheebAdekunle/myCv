@@ -12,7 +12,7 @@ import {
   useCurrentFrame,
   useVideoConfig,
 } from "remotion";
-import { CLIPS } from "./clips";
+import { CLIPS, ShotMedia } from "./clips";
 import data from "./shadow.json";
 import { Fx, IMAGES, PLAN, Win } from "./shots";
 
@@ -251,20 +251,53 @@ const News: React.FC = () => {
 };
 
 // ---------- One shot ----------
-const ClipView: React.FC<{ shot: Shot; clip: { src: string; seconds: number } }> = ({ shot, clip }) => {
+const ClipView: React.FC<{ shot: Shot; clip: ShotMedia }> = ({ shot, clip }) => {
   const f = useCurrentFrame();
   const { fps } = useVideoConfig();
-  const shotSec = shot.frames / fps;
-  const rate = clip.seconds < shotSec ? clip.seconds / shotSec : 1;
+  const isVideo = /\.(mp4|mov|webm)$/i.test(clip.src);
   const fired = has(shot, "fired");
-  return (
-    <AbsoluteFill>
+  const shakeAmt = has(shot, "shake") ? interpolate(f, [0, 14], [18, 0], clamp) : 0;
+  const desat = has(shot, "desat") ? interpolate(f, [0, 20], [0, 0.85], clamp) : 0;
+  let media: React.ReactNode;
+  if (isVideo) {
+    const shotSec = shot.frames / fps;
+    const secs = clip.seconds ?? shotSec;
+    const rate = secs < shotSec ? secs / shotSec : 1;
+    media = (
       <OffthreadVideo
         src={staticFile(clip.src)}
         muted
         playbackRate={rate}
-        style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        style={{ width: "100%", height: "100%", objectFit: "cover", filter: `grayscale(${desat})` }}
       />
+    );
+  } else {
+    const [fx, fy] = clip.focus ?? [0.5, 0.5];
+    const [z0, z1] = clip.zoom ?? [1, 1.1];
+    const t = interpolate(f, [0, shot.frames], [0, 1], { ...clamp, easing: Easing.inOut(Easing.quad) });
+    const pop = interpolate(f, [0, 6], [1.04, 1], clamp);
+    media = (
+      <Img
+        src={staticFile(clip.src)}
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+          transformOrigin: `${fx * 100}% ${fy * 100}%`,
+          transform: `scale(${(z0 + (z1 - z0) * t) * pop})`,
+          filter: `grayscale(${desat})`,
+        }}
+      />
+    );
+  }
+  return (
+    <AbsoluteFill
+      style={{
+        overflow: "hidden",
+        transform: `translate(${Math.sin(f * 3.1) * shakeAmt}px, ${Math.cos(f * 2.7) * shakeAmt}px)`,
+      }}
+    >
+      {media}
       {fired && (
         <AbsoluteFill
           style={{
@@ -273,6 +306,7 @@ const ClipView: React.FC<{ shot: Shot; clip: { src: string; seconds: number } }>
           }}
         />
       )}
+      {has(shot, "coins") && <Coins frames={shot.frames} />}
       {has(shot, "news") && <News />}
       {has(shot, "siren") && <Siren />}
     </AbsoluteFill>
