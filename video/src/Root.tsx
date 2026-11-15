@@ -1,9 +1,19 @@
 import { Composition } from "remotion";
 import { TitleCard, titleCardSchema } from "./TitleCard";
+import { SinkingCar } from "./sinking/SinkingCar";
+import { DURATION, FPS, HEIGHT, WIDTH } from "./sinking/timeline";
 
 export const RemotionRoot: React.FC = () => {
   return (
     <>
+      <Composition
+        id="SinkingCar"
+        component={SinkingCar}
+        durationInFrames={DURATION}
+        fps={FPS}
+        width={WIDTH}
+        height={HEIGHT}
+      />
       <Composition
         id="TitleCard"
         component={TitleCard}
